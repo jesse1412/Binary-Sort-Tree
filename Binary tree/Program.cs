@@ -37,6 +37,20 @@ namespace Binary_tree
 
                 }
 
+                else if (input[0] == 'h')
+                {
+
+                    Console.WriteLine("Highest value: " + treeHead.getHighestNode().value);
+
+                }
+
+                else if (input[0] == 'l')
+                {
+
+                    Console.WriteLine("Lowest value: " + treeHead.getLowestNode().value);
+
+                }
+
             }
             while (true);
 

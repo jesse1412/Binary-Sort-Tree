@@ -111,6 +111,25 @@ namespace Binary_tree
 
         }
 
+        public BinaryTree getHighestNode()
+        {
+
+            if (child2 != null)
+            {
+
+                return child2.getHighestNode();
+
+            }
+
+            else
+            {
+
+                return this;
+
+            }
+
+        }
+
         public void removeValue(int valueToRemove)
         {
 
